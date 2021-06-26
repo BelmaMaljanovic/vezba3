@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(241, 255, 255);
+}
+.glavni{
+    display: flex;
+  
+}
+.BSP{
+    background-color: #d4d4d1;
+    border: 1px solid black;
+    flex-grow: 1;
+
+margin-right: 10px;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+padding-top: 25px;
+
+}
+.valuta {
+    padding: 10px;
+    margin-top: 25px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+
+}
+#prvi{
+ border-top: 5px solid rgb(46, 129, 46);
+ color: green;
+ border-bottom:5px solid rgb(46, 129, 46);
+}
+#drugi{
+    border-top: 5px solid darkblue;
+    color:darkblue;
+    border-bottom: 5px solid darkblue;
+   }
+   #treci{
+       border-bottom: 5px solid darkcyan;
+    border-top: 5px solid darkcyan;
+    color: darkcyan
+   }
+
+ #valuta1 {
+    background-color: darkgreen;
+}
+#valuta2 {
+    background-color: darkblue;
+}
+#valuta3 {
+    background-color: darkcyan;
+}
+.option {
+    
+    flex-direction: column;
+    background-color: rgb(126, 121, 115);
+    text-align: center;
+    color: black;
+font-size: 20px;
+font-weight: normal;
+
+}
+.jedan {
+   height: 25px;
+  background-color: gainsboro;
+padding: 10px;
+}
+.footer{
+padding: 20px;
+}
+.poslednji{
+    margin:auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+   font-size: 20px;
+    width: 100px;
+}
+#poslednji2{
+    border: 2px solid darkblue;
+}
+#poslednji3 {
+    border: 2px solid darkcyan;
+}
